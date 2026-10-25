@@ -15,5 +15,9 @@ None - reset your hardware to exit
 ## Compiling
 
 ```bash
-make -f sdcc.mk
+zde deps install zvb
+zde cmake
 ```
+
+This uses the current Zeal OS CMake toolchain and VideoBoard SDK. The program
+is written to `bin/matrix.bin`; intermediate files remain in `build/`.
